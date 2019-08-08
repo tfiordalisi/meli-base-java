@@ -49,7 +49,7 @@ public class PlayaDeCargaTest {
     
     @After
     public void tearDown() {
-        playaDeCarga.vaciarPlaya();
+        // playaDeCarga.vaciarPlaya();
         playaDeCarga.cargarPlaya(pesos);
     }
 
