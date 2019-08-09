@@ -1,5 +1,9 @@
 package ar.com.mercadolibre.javaoop;
 
+import ar.com.mercadolibre.javaoop.motores.Motor;
+import ar.com.mercadolibre.javaoop.motores.MotorCombustible;
+import ar.com.mercadolibre.javaoop.motores.MotorNuclear;
+import ar.com.mercadolibre.javaoop.motores.MotorSolar;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 

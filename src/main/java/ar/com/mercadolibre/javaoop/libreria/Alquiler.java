@@ -4,22 +4,21 @@ import java.time.LocalDate;
 
 public class Alquiler {
 
-    private Libro libro;
+    private Alquilable alquilable;
     private LocalDate fechaAlquiler;
     private LocalDate fechaDevolucion;
 
-    public Alquiler(Libro libro) {
-        this.libro = libro;
+    public Alquiler(Alquilable alquilable) {
+        this.alquilable = alquilable;
         fechaAlquiler = LocalDate.now();
-        fechaDevolucion = fechaAlquiler.plusDays(7);
     }
 
     public LocalDate getFechaDevolucion() {
         return fechaDevolucion;
     }
 
-    public Libro getLibro() {
-        return libro;
+    public Alquilable getAlquilable() {
+        return alquilable;
     }
 
     public LocalDate getFechaAlquiler() {

@@ -20,14 +20,14 @@ public class LibreriaTest {
 
     @Test
     public void seAgregaUnAlquiler() {
-        libreria.agregarAlquiler(new Libro("1234", LocalDate.of(2019, 1, 1), "Codigo da vinci"));
+        libreria.agregarAlquiler(new Novela("1234", LocalDate.of(2019, 1, 1), "Codigo da vinci", "Dan Brown", "estrada"));
         Assertions.assertThat(libreria.cantidadAlquileres()).isEqualTo(1);
     }
 
     @Test(expected = Exception.class)
-    public void buscarUnLibro() throws Exception {
-        Libro libro = new Libro("1111", LocalDate.of(2001, 12, 10), "Harry Potter 1");
-        libreria.agregarAlquiler(new Libro("2222", LocalDate.of(1998, 12, 10), "El señor de los anillos"));
+    public void buscarUnNovela() throws Exception {
+        Novela libro = new Novela("1111", LocalDate.of(2001, 12, 10), "Harry Potter 1", "JK", "Griffindor");
+        libreria.agregarAlquiler(new LibroEstudio("2222", LocalDate.of(1998, 12, 10), "Matematica segun tu vieja", "Matematica"));
         Alquiler libroABuscar = libreria.buscarAlquiler(libro);
         Assertions.assertThat(libroABuscar).isEqualTo(libro);
     }

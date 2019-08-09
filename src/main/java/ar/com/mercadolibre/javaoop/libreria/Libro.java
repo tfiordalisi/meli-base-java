@@ -31,10 +31,15 @@ public abstract class Libro {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof Libro)) return false;
         Libro libro = (Libro) o;
         return Objects.equals(ISBN, libro.ISBN) &&
-                Objects.equals(fechaPublicacion, libro.fechaPublicacion);
+                Objects.equals(fechaPublicacion, libro.fechaPublicacion) &&
+                Objects.equals(titulo, libro.titulo);
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(ISBN, fechaPublicacion, titulo);
+    }
 }

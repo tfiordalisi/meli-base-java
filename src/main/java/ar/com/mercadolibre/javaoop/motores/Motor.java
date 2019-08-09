@@ -1,4 +1,4 @@
-package ar.com.mercadolibre.javaoop;
+package ar.com.mercadolibre.javaoop.motores;
 
 import java.math.BigDecimal;
 import java.util.function.DoubleConsumer;

@@ -1,6 +1,4 @@
-package ar.com.mercadolibre.javaoop;
-
-import java.math.BigDecimal;
+package ar.com.mercadolibre.javaoop.motores;
 
 public class MotorNuclear extends Motor implements Refrigerable{
 

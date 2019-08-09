@@ -6,20 +6,22 @@ public class Novela extends Libro implements Alquilable{
 
     private String autor;
     private String edicion;
+    private boolean alquilado;
 
     public Novela(String ISBN, LocalDate fechaPublicacion, String titulo, String autor, String edicion) {
         super(ISBN, fechaPublicacion, titulo);
         this.autor = autor;
         this.edicion = edicion;
+        this.alquilado = false;
     }
 
     @Override
-    public void alquilar() throws Exception {
-        throw new Exception("no implementado");
+    public void alquilar() {
+        this.alquilado = true;
     }
 
     @Override
-    public void devolver() throws Exception {
-
+    public void devolver() {
+        this.alquilado = false;
     }
 }

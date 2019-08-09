@@ -1,8 +1,7 @@
 package ar.com.mercadolibre.javaoop;
 
+import ar.com.mercadolibre.javaoop.motores.Cerradura;
 import org.assertj.core.api.Assertions;
-import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class CerraduraTest {

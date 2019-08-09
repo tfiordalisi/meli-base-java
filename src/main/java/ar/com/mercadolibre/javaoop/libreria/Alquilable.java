@@ -1,7 +1,9 @@
 package ar.com.mercadolibre.javaoop.libreria;
 
+import java.time.LocalDate;
+
 public interface Alquilable {
 
-    public void alquilar() throws Exception;
-    public void devolver() throws Exception;
+    public void alquilar();
+    public void devolver();
 }
