@@ -1,4 +1,4 @@
-package ar.com.mercadolibre.javaoop;
+package ar.com.mercadolibre.javaoop.motor;
 
 import ar.com.mercadolibre.javaoop.motores.Cerradura;
 import org.assertj.core.api.Assertions;

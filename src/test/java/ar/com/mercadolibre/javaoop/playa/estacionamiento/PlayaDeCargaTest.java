@@ -1,4 +1,4 @@
-package ar.com.mercadolibre.javaoop;
+package ar.com.mercadolibre.javaoop.playa.estacionamiento;
 
 import ar.com.mercadolibre.javaoop.playa.estacionamiento.Camion;
 import ar.com.mercadolibre.javaoop.playa.estacionamiento.Camioneta;

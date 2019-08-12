@@ -1,4 +1,4 @@
-package ar.com.mercadolibre.javaoop;
+package ar.com.mercadolibre.javaoop.tragamonedas;
 
 import ar.com.mercadolibre.javaoop.tragamonedas.Tambor;
 import ar.com.mercadolibre.javaoop.tragamonedas.Tragamonedas;

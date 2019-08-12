@@ -1,4 +1,4 @@
-package ar.com.mercadolibre.javaoop;
+package ar.com.mercadolibre.javaoop.envios;
 
 import ar.com.mercadolibre.javaoop.envios.*;
 import org.assertj.core.api.Assertions;

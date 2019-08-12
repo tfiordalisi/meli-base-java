@@ -1,6 +1,4 @@
-package ar.com.mercadolibre.javaoop;
-
-import ar.com.mercadolibre.javaoop.tragamonedas.Tambor;
+package ar.com.mercadolibre.javaoop.tragamonedas;
 
 import java.util.ArrayList;
 import java.util.List;

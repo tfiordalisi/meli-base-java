@@ -1,4 +1,4 @@
-package ar.com.mercadolibre.javaoop;
+package ar.com.mercadolibre.javaoop.tragamonedas;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
