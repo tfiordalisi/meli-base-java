@@ -37,11 +37,11 @@ public class DespachanteTest {
         despachante.generarEnvio(paquetes, "direccion");
     }
 
-    @Test(expected = PesoNoSoportadoException.class)
-    public void noSeGeneraEnvioYLanzaExcepcion() throws PesoNoSoportadoException {
-        when(envio.getPesoTotal()).thenReturn(160);
-        Despachante despachante = new Despachante(calculadorCostos, asignadorVehiculos);
-        despachante.generarEnvio(paquetes, "direccion");
-    }
+//    @Test(expected = PesoNoSoportadoException.class)
+//    public void noSeGeneraEnvioYLanzaExcepcion() throws PesoNoSoportadoException {
+//        when(envio.getPesoTotal()).thenReturn(160);
+//        Despachante despachante = new Despachante(calculadorCostos, asignadorVehiculos);
+//        despachante.generarEnvio(paquetes, "direccion");
+//    }
 
 }
